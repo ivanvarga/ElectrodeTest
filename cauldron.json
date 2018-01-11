@@ -21,6 +21,28 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ElectronTestMiniApp",
+      "platforms": [
+        {
+          "name": "ios",
+          "versions": [
+            {
+              "name": "0.0.1",
+              "ernPlatformVersion": "0.11.3",
+              "isReleased": false,
+              "binary": null,
+              "yarnLocks": {},
+              "nativeDeps": [],
+              "miniApps": {
+                "container": []
+              },
+              "codePush": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }
