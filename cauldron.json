@@ -32,19 +32,20 @@
               "yarnLocks": {
                 "container": "5705690550c583205b530790ac1fd2bdc55ca068"
               },
-              "nativeDeps": [
-                "react-native-ernmovie-api@0.0.9",
-                "react-native-ernnavigation-api@0.0.4",
-                "react-native@0.51.0",
-                "react-native-electrode-bridge@1.5.9"
-              ],
-              "miniApps": {
-                "container": [
-                  "movielistminiapp@0.0.9"
-                ]
-              },
               "codePush": {},
-              "containerVersion": "1.0.1"
+              "containerVersion": "1.0.1",
+              "container": {
+                "nativeDeps": [
+                  "react-native-ernmovie-api@0.0.9",
+                  "react-native-ernnavigation-api@0.0.4",
+                  "react-native@0.51.0",
+                  "react-native-electrode-bridge@1.5.9"
+                ],
+                "miniApps": [
+                  "movielistminiapp@0.0.9"
+                ],
+                "jsApiImpls": []
+              }
             }
           ],
           "config": {
@@ -61,5 +62,6 @@
         }
       ]
     }
-  ]
+  ],
+  "schemaVersion": "1.0.0"
 }
